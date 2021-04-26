@@ -9,27 +9,32 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_sticker("CAACAgQAAx0CTv65QgABBfJlYF6VCrGMm6OJ23AxHmD6qUSWESsAAhoQAAKm8XEeD5nrjz5IJFYeBA")
     await message.reply_text(
-        f"""**Hey, I'm **{bn}** 🎵
+        f"""**مرحبا, انا **𝗠𝗨𝗦𝗜𝗖 𝗦𝗧𝗢𝗥𝗠** 🎵
 
-I can play music in your group's voice call. Developed by [ZauTe Km](https://t.me/ZauTeKm).
-
-Add me to your group and play music freely!**
+انا اعمل في المجموعات لايمكن تشغيلي في الخاص 🎼
+قم برفعي مشرف في مجموعتك 
+قم باضافه الحساب المساعد  [𝗠𝗨𝗦𝗜𝗖 𝗦𝗧𝗢𝗥𝗠](https://t.me/MUSIC_VOICEY).
+ارسل اغنيه بصمه او mp3 او رابط من اليوتيوب 
+قم بالرد على الرابط او البصمه وارسل /play
+تستطيع البحث في اليوتيوب باستخدام البوت
+مثال
+@MusiVchatBot كاظم الساهر**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🛠 Helpful Command 🛠", url="https://telegra.ph/VC-Music-Player-Bot-Helpful-Commands-04-17")
+                        "🛠 للمساعده 🛠", url="https://t.me/hhmhhh")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/ZauTeSupport"
+                        "💬 مجموعه", url="https://t.me/in_arrray"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/TGBotSzK"
+                        "🔊 القناة", url="https://t.me/CQCQQ"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/zK_GvCBot?startgroup=true"
+                        "➕ اضافه الى مجموعتك ➕", url="https://t.me/zK_GvCBot?startgroup=true"
                     )]
             ]
         ),
@@ -43,7 +48,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/ZauTeKm")
+                        "🔊 قناتي", url="https://t.me/CQCQQ")
                 ]
             ]
         )
