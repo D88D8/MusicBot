@@ -23,8 +23,7 @@ async def play(_, message: Message):
 
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
-            raise DurationLimitError(
-                "**@Z44Z4\nتخزين هذه الاغنيه كبير جدا🔻\n يجب ان تكون الاغنيه 65mb او ادنى تخزينا ♻️")
+            raise DurationLimitError(f"**@Z44Z4\nتخزين هذه الاغنيه كبير جدا🔻\n يجب ان تكون الاغنيه 65mb او ادنى تخزينا ♻️")
 **")
 
         file_name = get_file_name(audio)
@@ -35,10 +34,10 @@ async def play(_, message: Message):
     elif url:
         file_path = await converter.convert(youtube.download(url))
     else:
-        return await message.reply_text("**@Z44Z4**")
+        return await message.reply_text(f"**@Z44Z4\n قم بالرد على الاغنيه او الرابط وارسل /play 🎶**")
 
     if message.chat.id in callsmusic.pytgcalls.active_calls:
-        await message.reply_text("**@Z44Z4\n تم وضع الاغنيه في الدور**#{await callsmusic.queues.put(message.chat.id, file_path=file_path)} 🎶")
+        await message.reply_text(f"**@Z44Z4\n تم وضع الاغنيه في الدور**#{await callsmusic.queues.put(message.chat.id, file_path=file_path)} 🎶")
     else:
         callsmusic.pytgcalls.join_group_call(message.chat.id, file_path)
-        await message.reply_text("**@Z44Z4\n جاري التشغيل 🎶**")
+        await message.reply_text(f"**@Z44Z4\n جاري التشغيل 🎶**")
