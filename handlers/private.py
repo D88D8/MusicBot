@@ -11,7 +11,7 @@ async def start(_, message: Message):
         f"""**مرحبا انا **{bn}** 🎵
 
 بامكاني تشغيل الاغاني في المكالمات الجماعيه 
-قم برفعي  مشرف في قناتك مع البوت المساعد [𝗠𝗨𝗦𝗜𝗖 𝗦𝗧𝗢𝗥𝗠](https://t.me/MUSIC_VOICEY).
+قم برفعي  مشرف في قناتك مع البوت المساعد [𝙎𝙉𝙀𝙆𝙍𝙎 🍫](https://t.me/SnekrsVoice).
 
 قم باضافتي الى مجموعتك لتبدأ الحفله 🎶**
         """,
@@ -19,17 +19,17 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🛠 لطلب المساعده 🛠", url="https://t.me/hhmhhh")
+                        "⌁︙ لطلب المساعده ︙⌁", url="https://t.me/hhmhhh")
                   ],[
                     InlineKeyboardButton(
-                        "💬 قناة للشروحات", url="https://t.me/in_arrray"
+                        "⌁︙ قناة تمبلر ︙⌁", url="https://t.me/o9oooo"
                     ),
                     InlineKeyboardButton(
-                        "🔊 قناتي", url="https://t.me/CQCQQ"
+                        "⌁︙ متحركات اطفال ︙⌁", url="https://t.me/z44z4"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕  اضفني الى مجموعتك ➕", url="https://t.me/MusiVchatBot?startgroup=true"
+                        "⌁︙ اضافه الى مجموعة ︙⌁", url="https://t.me/hmh_bbot?startgroup=true"
                     )]
             ]
         ),
@@ -43,7 +43,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 قناتي الخاصه", url="https://t.me/z44z4")
+                        "⌁︙ متحركات اطفال ︙⌁", url="https://t.me/z44z4")
                 ]
             ]
         )
@@ -55,7 +55,7 @@ async def gstart(_, message: Message):
       await message.reply_text("""** يمتاز هذا البوت بالبحث والتحميل ✨
 اكتب معرف البوت مع اسم الاغنيه للبحث 🔊
 مثال : 
-@MusiVchatBot كاظم الساهر
+@hmh_bbot كاظم الساهر
 تستطيع تحميل اي اغنيه ايضا 💞
 بالاوامر التاليه :
 - /ytp رابط الاغنيه من اليوتيوب
@@ -72,10 +72,10 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 قناتي الخاصه", url="https://t.me/z44z4")
+                        "⌁︙ قناة البوت ︙⌁", url="https://t.me/o9oooo")
                 ],[
                     InlineKeyboardButton(
-                        "🎶 الحساب المساعد", url="https://t.me/MUSIC_VOICEY"
+                        "⌁︙ الحساب المساعد ︙⌁", url="https://t.me/hmh_bbot"
                     )
                 ]
             ]
