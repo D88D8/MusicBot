@@ -75,7 +75,7 @@ async def gstart(_, message: Message):
                         "⌁︙ متحركات اطفال ︙⌁", url="https://t.me/z44z4")
                 ],[
                     InlineKeyboardButton(
-                        "🎶 الحساب المساعد", url="https://t.me/SnekrsVoice"
+                        "⌁︙ طلب المساعدة ︙⌁", url="https://t.me/SnekrsVoice"
                     )
                 ]
             ]
